@@ -1,0 +1,46 @@
+.parallax {
+	background-color: rgba(0, 0, 0);
+	margin-top: 30px;
+}
+.parallax-img {
+	/* The image used */
+	background-image: url('kenton-fire-jump.jpg');
+
+	/* Set a specific height */
+	height: 100vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.scroll-text {
+	height: 350px;
+	background: rgba(43, 10, 10, 0.582);
+	font-size: 15px;
+	color: white;
+	margin: auto;
+	padding: 30px;
+}
+
+.parallax-img2 {
+	background-image: url('fire.jpg');
+	min-height: 400px;
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.caption-text {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}

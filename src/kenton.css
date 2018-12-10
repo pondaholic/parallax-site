@@ -1,12 +1,13 @@
 .parallax {
 	background-color: rgba(0, 0, 0);
+	margin-top: 35px;
 }
 .parallax-img {
 	/* The image used */
 	background-image: url('kenton-fire-jump.jpg');
 
 	/* Set a specific height */
-	height: 100vh;
+	height: 80vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -15,13 +16,18 @@
 	background-size: cover;
 }
 
-.scroll-text {
+.buffer {
+	height: 30px;
+	background: rgba(43, 10, 10, 0.582);
+}
+
+.scroll-text-bg {
 	height: 350px;
 	background: rgba(43, 10, 10, 0.582);
 	font-size: 15px;
 	color: white;
-	margin: auto;
 	padding: 30px;
+	border: 30px;
 }
 
 .parallax-img2 {

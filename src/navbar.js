@@ -7,7 +7,7 @@ export default function Navbar(props) {
 		<div className="navbar">
 			<ul>
 				<li>
-					<a href="#parallax-img">Fire!</a>
+					<a href="#fire">Fire!</a>
 				</li>
 				<li>
 					<a href="#parallax-img2">Contact</a>

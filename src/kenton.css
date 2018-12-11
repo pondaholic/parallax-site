@@ -22,7 +22,7 @@
 }
 
 .scroll-text-bg {
-	height: 350px;
+	height: 300px;
 	background: rgba(43, 10, 10, 0.582);
 	font-size: 15px;
 	color: white;
@@ -57,4 +57,14 @@
 	width: 100%;
 	text-align: center;
 	color: white;
+}
+
+.parallax-img4 {
+	background-image: url('holder2.jpg');
+	min-height: 370px;
+	position: relative;
+	opacity: 0.8;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }

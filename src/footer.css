@@ -1,0 +1,57 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	background: rgba(43, 10, 10, 0.582);
+	color: white;
+	margin: 0;
+	padding: 20px;
+}
+
+.footer h4 {
+	font-size: 15px;
+}
+
+.social {
+	flex-direction: column;
+	width: 400px;
+	padding: 10px;
+	margin: 0;
+}
+
+.motto {
+	width: 200px;
+	padding: 10px;
+	margin: 0;
+}
+
+.motto p {
+	width: 200px;
+	text-align: left;
+}
+
+.nav {
+	width: 150px;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+.nav ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.nav li {
+	padding: 2px;
+	margin: 1px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
+i {
+	padding: 3px;
+	margin: 3px;
+}

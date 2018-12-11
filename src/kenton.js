@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from './contact';
+import Footer from './footer';
 import './kenton.css';
 
 export default class Home extends React.Component {
@@ -23,6 +24,9 @@ export default class Home extends React.Component {
 					A contact form.
 					<ContactForm />
 				</div>
+				<div className="buffer" id="etc" />
+				<div className="parallax-img4" />
+				<Footer />
 			</div>
 		);
 	}

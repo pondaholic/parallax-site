@@ -9,6 +9,7 @@ export default function Footer() {
 				<i class="fab fa-facebook fa-3x" />
 				<i class="fab fa-instagram fa-3x" />
 				<i class="fab fa-twitter fa-3x" />
+				<p>You can send me a message at [insert email]</p>
 			</div>
 			<div className="motto">
 				<h4>Kenton McDougal</h4>
@@ -36,6 +37,17 @@ export default function Footer() {
 						<a href="#parallax-img">More Things</a>
 					</li>
 				</ul>
+			</div>
+			<div className="made">
+				Created by{' '}
+				<a
+					href="https://shellyleung.me"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Shelly Leung
+				</a>
+				.
 			</div>
 		</div>
 	);

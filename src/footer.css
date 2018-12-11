@@ -1,11 +1,13 @@
 .footer {
-	display: flex;
-	flex-direction: row;
-	height: 200px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 220px;
 	background: rgba(43, 10, 10, 0.582);
 	color: white;
 	margin: 0;
 	padding: 20px;
+	grid-template-areas: 'social motto nav' 'made made made';
 }
 
 .footer h4 {
@@ -13,13 +15,14 @@
 }
 
 .social {
-	flex-direction: column;
+	grid-area: social;
 	width: 400px;
 	padding: 10px;
 	margin: 0;
 }
 
 .motto {
+	grid-area: motto;
 	width: 200px;
 	padding: 10px;
 	margin: 0;
@@ -31,6 +34,7 @@
 }
 
 .nav {
+	grid-area: nav;
 	width: 150px;
 	padding: 10px;
 	margin-left: 50px;
@@ -54,4 +58,15 @@
 i {
 	padding: 3px;
 	margin: 3px;
+}
+
+.made {
+	grid-area: made;
+	padding: 5px;
+	margin: 5px;
+}
+
+.made a {
+	text-decoration: underline;
+	color: white;
 }

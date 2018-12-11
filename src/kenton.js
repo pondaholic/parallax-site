@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './contact';
 import './kenton.css';
 
 export default class Home extends React.Component {
@@ -18,7 +19,10 @@ export default class Home extends React.Component {
 				<div className="scroll-text-bg">fire props.</div>
 				<div className="parallax-img3" />
 				<div className="buffer" id="contact" />
-				<div className="scroll-text-bg">A contact form.</div>
+				<div className="scroll-text-bg">
+					A contact form.
+					<ContactForm />
+				</div>
 			</div>
 		);
 	}

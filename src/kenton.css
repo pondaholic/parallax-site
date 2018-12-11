@@ -41,6 +41,15 @@
 	background-size: cover;
 }
 
+.parallax-img3 {
+	background-image: url('holder1.jpg');
+	min-height: 500px;
+	position: relative;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .caption-text {
 	position: absolute;
 	left: 0;

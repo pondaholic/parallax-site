@@ -14,8 +14,11 @@ export default class Home extends React.Component {
 				</div>
 				<div className="parallax-img2" />
 				<div className="caption-text">Let's Play with FIRE!</div>
+				<div className="buffer" id="props" />
+				<div className="scroll-text-bg">fire props.</div>
 				<div className="parallax-img3" />
-				<div className="scroll-text-bg">More text about kenton.</div>
+				<div className="buffer" id="contact" />
+				<div className="scroll-text-bg">A contact form.</div>
 			</div>
 		);
 	}

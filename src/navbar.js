@@ -10,10 +10,10 @@ export default function Navbar(props) {
 					<a href="#fire">Fire!</a>
 				</li>
 				<li>
-					<a href="#parallax-img2">Contact</a>
+					<a href="#props">Props</a>
 				</li>
 				<li>
-					<a href="#parallax-img">Props</a>
+					<a href="#contact">Contact</a>
 				</li>
 				<li>
 					<a href="#parallax-img">Something Else</a>

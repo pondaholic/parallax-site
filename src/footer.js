@@ -6,9 +6,9 @@ export default function Footer() {
 		<div className="footer">
 			<div className="social">
 				<h4>Stay Connected</h4>
-				<i class="fab fa-facebook fa-3x" />
-				<i class="fab fa-instagram fa-3x" />
-				<i class="fab fa-twitter fa-3x" />
+				<i className="fab fa-facebook fa-3x" />
+				<i className="fab fa-instagram fa-3x" />
+				<i className="fab fa-twitter fa-3x" />
 				<p>You can send me a message at [insert email]</p>
 			</div>
 			<div className="motto">

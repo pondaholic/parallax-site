@@ -3,12 +3,12 @@ import { Link } from 'react-scroll';
 
 import './navbar.css';
 
-export default function Navbar(props) {
+export default function Navbar() {
 	return (
 		<div className="navbar">
 			<ul>
 				<li>
-					<Link to="#fire" smooth={true} duration={500}>
+					<Link to="fire" smooth={true}>
 						Fire!
 					</Link>
 				</li>

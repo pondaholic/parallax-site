@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import './navbar.css';
 
@@ -7,7 +8,9 @@ export default function Navbar(props) {
 		<div className="navbar">
 			<ul>
 				<li>
-					<a href="#fire">Fire!</a>
+					<Link to="#fire" smooth={true} duration={500}>
+						Fire!
+					</Link>
 				</li>
 				<li>
 					<a href="#props">Props</a>

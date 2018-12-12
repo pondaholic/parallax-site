@@ -12,7 +12,7 @@ export default function Footer() {
 				<p>You can send me a message at [insert email]</p>
 			</div>
 			<div className="motto">
-				<h4>Kenton McDougal</h4>
+				<h4>Kenton Kenton</h4>
 				<p>
 					Things about lalalalalalala. Things on this. Things on that. Things
 					about fire. Just things. And, then some more things.

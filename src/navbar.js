@@ -13,16 +13,24 @@ export default function Navbar() {
 					</Link>
 				</li>
 				<li>
-					<a href="#props">Props</a>
+					<Link to="props" smooth={true}>
+						Props
+					</Link>
 				</li>
 				<li>
-					<a href="#contact">Contact</a>
+					<Link to="contact" smooth={true}>
+						Contact
+					</Link>
 				</li>
 				<li>
-					<a href="#parallax-img">Something Else</a>
+					<Link to="parallax-img" smooth={true}>
+						Something Else
+					</Link>
 				</li>
 				<li>
-					<a href="#parallax-img">More Things</a>
+					<Link to="parallax-img" smooth={true}>
+						More Things
+					</Link>
 				</li>
 			</ul>
 		</div>

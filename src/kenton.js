@@ -29,7 +29,7 @@ export default class Home extends React.Component {
 				<Element className="buffer" name="props" id="props" />
 				<div className="scroll-text-bg">fire props.</div>
 				<div className="parallax-img3" />
-				<div className="buffer" id="contact" />
+				<div className="buffer" name="contact" id="contact" />
 				<div className="scroll-text-bg">
 					A contact form.
 					<ContactForm />
